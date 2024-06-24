@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #7d8080;
+}
+
+.corpo{
+    
+    margin: auto;
+    background-color: #000000;
+    display: flex;
+    width: 300px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1{
+    margin: 20px;
+    background-color: #00d9ff;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.box2{
+    margin: 20px;
+    background-color: #05fa2e;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.box2:hover{
+    background-color: #016411;
+}
+.box1:hover{
+    background-color: #006779;
+}
+
